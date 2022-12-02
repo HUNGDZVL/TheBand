@@ -1,0 +1,119 @@
+/*pc*/
+@media only screen and (min-width: 64em) {
+    #header li{
+        display: inline-block;
+     }
+    
+}
+/*tablet and mobile*/
+ @media (max-width:63.9375em){
+    .btn{
+        padding:15px 16px ;
+    }
+    .contact-form .form-control{
+            padding: 16px;
+    }
+    .socials-list{
+        font-size: 48px;
+     
+
+    }
+    #footer .socials-list a{
+        margin: 0 6px;
+    }
+
+    #footer .copyright{
+        padding: 10px 0;
+        display: inline-block;
+    }
+    .contact-info{
+        
+        line-height: 2;/*khoang cach giua cac dong*/
+    }
+    .contact-submit-btn{
+        font-size: 17px;
+    }
+ }
+
+
+/*tablet*/
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+    #header li {
+            display: inline-block;
+        }
+
+}
+
+/*mobile*/
+@media (max-width: 46.1875em) {
+    .s-full-width{
+        width: 100%!important;
+    }
+    
+    .s-col-full{/*thuoc tinh col full tren mobile dat la s*/
+        width: 100%;
+    } 
+    .s-mt-8{
+        margin-top: 8px!important;
+    }
+
+    #header{
+        overflow:hidden;
+    }
+
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+    #nav li {
+        
+        width: 435px;
+        display: table;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+        width: 88px;
+    }
+    
+    #nav li a {
+         /*fix cho dep*/
+         text-align: justify;
+         padding-left: 16px;
+         width: 100%;
+         display: block;
+    }
+
+    
+    #nav .subnav{
+        
+        position: initial;/*reset position tro ve mac dinh*/
+        background-color: #333;
+    }
+    #nav .subnav a{
+         color: #fff;
+         padding: 0px 31px;
+    }
+     #nav .subnav li{
+        width: 435px;
+        left: -5px;
+        
+
+    }
+
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;/*dat 3 hinh theo chieu doc vi 1 hinh la 100% nen bi day xuong duoi*/
+    }
+
+    #content .member-img{
+        width: 60%;/*tang kich thuoc anh*/
+    }
+        .contact-form{
+            margin-top: 32px;
+        }
+}
